@@ -2335,6 +2335,8 @@
     
     <!-- Whether doze feature is enabled by default in settings. -->
     <bool name="config_doze_enabled_by_default">true</bool>
+	
+    <!-- Is Advanced Reboot enabled? -->
+    <bool name="config_advanced_reboot">true</bool>
 
-    
 </resources>
