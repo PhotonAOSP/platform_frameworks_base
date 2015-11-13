@@ -2329,4 +2329,7 @@
   <java-symbol type="bool" name="config_cameraDoubleTapPowerGestureEnabled" />
 
   <java-symbol type="drawable" name="platlogo_m" />
+  
+  <!-- Power menu -->
+  <java-symbol type="string" name="system_error_vendorprint" />
 </resources>
