@@ -71,7 +71,8 @@ public class ViewInvertHelper {
     }
 
     public void update(boolean invert) {
-        if (invert) {
+        if (invert && Resources.getSystem().getBoolean(
+                com.android.internal.R.bool.config_invert_colors_on_doze)) {
             updateInvertPaint(1f);
             mTarget.setLayerType(View.LAYER_TYPE_HARDWARE, mDarkPaint);
         } else {
