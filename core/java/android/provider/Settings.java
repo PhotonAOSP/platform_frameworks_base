@@ -3531,12 +3531,6 @@ public final class Settings {
          */
         public static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
 
-        /** Whether to allow one finger quick settings expansion on the right side of the statusbar.
-         *
-         * @hide
-         */
-        public static final String STATUS_BAR_QUICK_QS_PULLDOWN = "status_bar_quick_qs_pulldown";
-
        /**
 	* Network traffic indicator, goes from least to greatest significant bitwise
 	* 0 = Display up-stream traffic if set
